@@ -38,6 +38,7 @@ app.use(express.json());
 app.use("/user", routes);
 
 // Login endpoint
+// Login endpoint
 app.post("/login", (req, res) => {
     const user = req.body.user;
     if (!user) {
